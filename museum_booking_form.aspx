@@ -166,7 +166,7 @@
                         <label>If you have any special request. Please tell us below:</label>
                     </div>
                     <div>
-                        <asp:TextBox runat="server" ID="aspx_visitor_request"></asp:TextBox>
+                        <textarea id="aspx_visitor_request" cols="35" rows="5" runat="server"></textarea>
                     </div>
                     <div>
                     <asp:Button runat="server" text="Submit" />

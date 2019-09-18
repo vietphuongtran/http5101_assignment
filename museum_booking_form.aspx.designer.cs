@@ -163,6 +163,6 @@ namespace n01400583_Assignment_1 {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox aspx_visitor_request;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea aspx_visitor_request;
     }
 }
