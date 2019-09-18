@@ -122,7 +122,7 @@
                         <div>
                             <label>What section do you want to visit:</label>
                             <div>
-                                <asp:CheckBoxList runat="server" ID="aspx_visitor_favorite_comi">
+                                <asp:CheckBoxList runat="server" ID="aspx_visitor_favorite_comic">
                                     <asp:ListItem Text="Marvel Comics Section" Value="Marvel Comics Section"></asp:ListItem>
                                     <asp:ListItem Text="DC Comics Section" Value="DC Comics Section"></asp:ListItem>
                                     <asp:ListItem Text="Manga Section" Value="Manga Section"></asp:ListItem>
