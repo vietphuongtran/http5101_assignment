@@ -6,16 +6,17 @@
     <meta name="description" content="Toronto Comic Museum Booking Form" />
 </head>
 <body>
-    <h1>The Toronto Comic Museum</h1>
-    <p>A journey to Toronto will never be completed without a trip to the famous Toronto Comic Museum.</p>
-    <p>Home to thousands of comic, manga and anime all over the world, this is the must-visit place whether you are a geeky-head or not.</p>
-    <p>Highlights:</p>
-    <ul>
-        <li>Contained some of the oldest comic books in the world in mint condition</li>
-        <li>Suitable for all ages</li>
-        <li>Chance to talk and receive autograph from famous comic book writers</li>
-    </ul>
     <main>
+        <h1>The Toronto Comic Museum Booking Form</h1>
+        <p>A journey to Toronto will never be completed without a trip to the famous Toronto Comic Museum.</p>
+        <p>Home to thousands of comic, manga and anime all over the world, this is the must-visit place whether you are a geeky-head or not.</p>
+        <p>Highlights:</p>
+        <ul>
+            <li>Contained some of the oldest comic books in the world in mint condition</li>
+            <li>Suitable for all ages</li>
+            <li>Chance to talk and receive autograph from famous comic book writers</li>
+        </ul>
+
         <form method="post" action="https://postman-echo.com/post">
             <section>
                 <h2>Please tell us about yourself:</h2>
@@ -122,21 +123,21 @@
                     <div>
                         <label>What section do you want to visit:</label>
                         <div>
-                            <input type="checkbox" id="html_visitor_favorite_comic1" name="html_visitor_favorite_comic1" value="Marvel comic section" /><label for="html_visitor_favorite_comic1">Marvel Comics section</label>
-                            <input type="checkbox" id="html_visitor_favorite_comic2" name="html_visitor_favorite_comic2" value="DC comics section" /><label for="html_visitor_favorite_comic2">DC Comics section</label>
-                            <input type="checkbox" id="html_visitor_favorite_comic3" name="html_visitor_favorite_comic3" value="Manga section" /><label for="html_visitor_favorite_comic3">Manga section</label>
+                            <input type="checkbox" id="html_visitor_favorite_comic1" name="html_visitor_favorite_comic1" value="Marvel comic section" /><label for="html_visitor_favorite_comic1">Marvel Comics section ($400/person)</label>
+                            <input type="checkbox" id="html_visitor_favorite_comic2" name="html_visitor_favorite_comic2" value="DC comics section" /><label for="html_visitor_favorite_comic2">DC Comics section ($200/person)</label>
+                            <input type="checkbox" id="html_visitor_favorite_comic3" name="html_visitor_favorite_comic3" value="Manga section" /><label for="html_visitor_favorite_comic3">Manga section ($100/person)</label>
                         </div>
                         <label>What additional service do you want to include in your tour:</label>
                         <div>
-                            <input type="checkbox" id="html_additional_service1" name="html_additional_service1" value="Tour guide" /><label for="html_additional_service1">Tourguide</label>
-                            <input type="checkbox" id="html_additional_service2" name="html_additional_service2" value="4D Movies" /><label for="html_additional_service2">4D Movies</label>
-                            <input type="checkbox" id="html_additional_service3" name="html_additional_service3" value="Creating your own comic" /><label for="html_additional_service3">Creating your own comic</label>
+                            <input type="checkbox" id="html_additional_service1" name="html_additional_service1" value="Tour guide" /><label for="html_additional_service1">Tourguide ($10/person)</label>
+                            <input type="checkbox" id="html_additional_service2" name="html_additional_service2" value="4D Movies" /><label for="html_additional_service2">4D Movies($20/person)</label>
+                            <input type="checkbox" id="html_additional_service3" name="html_additional_service3" value="Creating your own comic" /><label for="html_additional_service3">Creating your own comic ($30/person)</label>
                         </div>
                     </div>
                 </fieldset>
             </section>
             <section>
-                <h2>Additional information</h2>
+                <h3>Additional information</h3>
                 <p>We provide comic-inspired meal to make your trip more delightful. Please answer the following question to help our preparation:</p>
                 <div>
                     <label>Do you have any allergy?</label>
@@ -156,9 +157,9 @@
                 </div>
                 <div>
                     <label for="html_visitor_request">If you have any special request. Please tell us below:</label>
-                </div>
-                <div>
-                    <textarea id="html_visitor_request" name="html_visitor_request" rows="5" cols="35"></textarea>
+                    <div>
+                        <textarea id="html_visitor_request" name="html_visitor_request" rows="5" cols="35"></textarea>
+                    </div>
                 </div>
                 <button type="submit" id="submit" name="submit">Submit</button>
             </section>
